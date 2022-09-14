@@ -29,7 +29,7 @@ def remove(instance):
     # Checking that there are no items in the queue
     instance_length = instance.__len__()
     if instance_length == 0:
-        print(f'Não há elementos', file=sys.stdout)
+        print('Não há elementos', file=sys.stdout)
     else:
         # Dequeuing first item from the queue
         item_dequeue = instance.dequeue()
